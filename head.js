@@ -10,7 +10,7 @@ const assertEqual = function(actual, expected) {
 
 // this func get the 0 index of the array and takes it out of array
 const head = function(insert){
-  return insert.shift();
+  return insert[0];
 }
 
 assertEqual(head([5,6,7]), 5);
