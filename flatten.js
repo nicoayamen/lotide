@@ -24,7 +24,18 @@ const assertArraysEqual = function(a, b) {
 }
 
 const flatten = function(a) {
-  return a.flat();
+  let newArr = [];
+  for (element of a) {
+    // if element is array we concat element in newArr
+    if (Array.isArray(element)) {
+      newArr = newArr.concat(element);
+    } else {
+      // if it isnt, push element to new arr
+      newArr.push(element);
+    }
+  }
+  // always return
+  return newArr;
 }
 
 assertArraysEqual(flatten([1, 2, [3, 4], 5, [6]]), [1, 2, 3, 4, 5, 6]) // => [1, 2, 3, 4, 5, 6]
