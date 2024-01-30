@@ -12,7 +12,6 @@ const countLetters = function(string) {
   for (const chars of string) {
     // to not include spaces and only count and add letters. if it includes a space, it will not be added.
     if (chars !== " ") {
-      const letters = chars.toLowerCase();
       // to check if a letter exists in obj, if it does add 1
       if (obj[letters]) {
         obj[letters] += 1;
@@ -24,3 +23,12 @@ const countLetters = function(string) {
   }
   return obj;
 };
+
+const result1 = countLetters('LHL');
+assertEqual(result1['L'], 2);
+assertEqual(result1['H'], 1);
+
+const result2 = countLetters('Lighthouse Labs');
+assertEqual(result2['L'], 2);
+assertEqual(result2['i'], 1);
+assertEqual(result2['g'], 1);
