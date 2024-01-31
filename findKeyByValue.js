@@ -15,6 +15,7 @@ const findKeyByValue = function(genres, show){
     // if the show we are looking for exists in the genres obj return the key of the valuse
     if (show === genres[genre]) {
         result = genre;
+        break;
     }
   }
   return result;
