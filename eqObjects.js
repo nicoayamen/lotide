@@ -72,7 +72,6 @@ const eqObjects = function(obj1, obj2) {
 };
 
 const example = {
-  arr: [1, true, "3"],
   one: 2,
   fizz: 'buzz',
   buzz: true
@@ -82,7 +81,6 @@ const example2 = {
   fizz: 'buzz',
   one: 2,
   buzz: true,
-  arr: [1, true, "3"]
   //talk: 'mentor'
 };
 
