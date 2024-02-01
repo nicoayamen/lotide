@@ -46,7 +46,7 @@ const eqObjects = function(obj1, obj2) {
 
 
   for (key of arr1) {
-    console.log("Hello");
+    //console.log("Hello");
     // cond 1 if the value is an array, and second val is an array, then we want to compare the arrays
     //if theyre not arrays
     if (Array.isArray(obj1[key]) && Array.isArray(obj2[key])) {
