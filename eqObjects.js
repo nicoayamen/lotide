@@ -38,7 +38,7 @@ const eqObjects = function(obj1, obj2) {
   //console.log(arr1, arr2);
 
   // if the keys are equal,
-  if (eqArrays(arr1, arr2)) {
+  if (eqArrays(arr1.length, arr2.length)) {
     if (!eqArrays(arr1, arr2)) {
       return false;
     }
