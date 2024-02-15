@@ -41,6 +41,7 @@ The following functions are currently implemented:
 * `middle`: returns the middle value (or values) of an array
 * `tail`: returns the all the values of an array after 0
 * `takeUntil`: pushes values into a new array until it reaches the specified index 
-* `without`: retunrs a new array, without value specified
+* `without`: returns a new array, without value specified
+* `map`: returns an element based on parameter callback
 
 
