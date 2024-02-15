@@ -1,8 +1,8 @@
 {
-  "name": "lotide",
+  "name": "@blufuu/lotide",
   "version": "1.0.0",
-  "description": "",
-  "main": "assertArraysEqual.js",
+  "description": "a library of functions based on Lodash",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/nicoayamen/lotide.git"
   },
-  "author": "",
+  "author": "Nicolas Ayala",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/nicoayamen/lotide/issues"
