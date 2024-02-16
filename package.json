@@ -1,6 +1,6 @@
 {
   "name": "@blufuu/lotide",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "a library of functions based on Lodash",
   "main": "index.js",
   "directories": {
@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/nicoayamen/lotide#readme",
   "devDependencies": {
-    "chai": "^4.3.1",
+    "chai": "^4.4.1",
     "mocha": "^9.2.2"
   }
 }
